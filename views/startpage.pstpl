@@ -1,0 +1,45 @@
+<!-- startpage.pstl -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{SURVEYNAME}</title>
+<meta name="generator" content="LimeSurvey https://www.limesurvey.org" />
+
+<!-- The following line includes jquery-ui.css or jquery-ui-custom.css from template dir, template.css and needed specific css file for survey -->
+{TEMPLATECSS}
+
+<!-- The following line includes jquery.js, jquery-ui.js, survey_runtime.js , template.js and needed specific js file for survey -->
+{TEMPLATEJS}
+<link rel="shortcut icon" href="{TEMPLATEURL}files/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="{TEMPLATEURL}files/tu.css">
+</head>
+<body class="default lang-{SURVEYLANGUAGE} {SURVEYFORMAT}">
+
+<div class="container frame">
+    <div id="head" class="container container-fluid">
+        <img id="tu_logo" src="{TEMPLATEURL}files/siegel.svg"/>
+        <img id="headerImage" src="{TEMPLATEURL}files/altgebaeude-01.jpg"/>
+    </div>
+    <nav class="navbar navbar-default" id="topsurveymenubar">
+        <div id="navbarButtonContainer" class="navbar-header">
+            <span class="navbar-brand">{SURVEYNAME}</span>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav navbar-right">
+                {SAVE_LINKS}
+                {CLEARALL_LINKS}
+                {QUESTION_INDEX_MENU}
+            </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
+    <div class="extend">   
+    <div class="outerframe container" id="outerframeContainer">
+
+        <div class="row" id="main-row">
+
+            <div class='col-xs-12' id="yii-flash-message">
+                {FLASHMESSAGE}
+            </div>
+
+            <div class="col-sm-12 col-centered" id="main-col">
+<!-- end of startpage.pstl -->

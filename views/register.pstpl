@@ -1,0 +1,13 @@
+<div class='jumbotron'>
+    <div class="container clearfix">
+        <h2>{REGISTERMESSAGE1}</h2>
+        <h3><small class='text-info'>{REGISTERMESSAGE2}</small></h3>
+    </div>
+</div>
+{REGISTERERROR}
+<div class="register-form">
+    <div>{REGISTERFORM}</div>
+</div>
+<input type='hidden' class='hidemenubutton'/>
+
+<script type="text/javascript" src="{TEMPLATEURL}files/tu-register.js"></script>

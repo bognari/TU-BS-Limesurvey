@@ -1,0 +1,18 @@
+{CHECKJAVASCRIPT}
+
+<div class="row" id="surveys-list-container">
+
+    <div class="col-xs-12 site-name">
+
+    </div>
+    <div class="col-xs-12 survey-list-heading">
+        {SURVEYLISTHEADING}
+    </div>
+    <div class="col-xs-12 survey-list">
+        {SURVEYLIST}
+    </div>
+
+
+</div>
+
+
